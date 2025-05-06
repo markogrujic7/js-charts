@@ -1,9 +1,28 @@
 <!DOCTYPE html>
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
-    
 
-<script src="charts.js"></script>
+    <div class="content">
+        <div class="chart-div">
+            <span>Investment Distribution</span>
+            <canvas id="chart-1"></canvas>
+        </div>
+        <div class="chart-div">
+            <span>Sector Allocation</span>
+            <canvas id="chart-2"></canvas>
+        </div>
+        <div class="chart-div">
+            <span>Portfolio Growth ($)</span>
+            <canvas id="chart-3"></canvas>
+        </div>
+        <div class="chart-div">
+            <span>Monthly Expenses ($)</span>
+            <canvas id="chart-4"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="charts.js"></script>
 </body>
